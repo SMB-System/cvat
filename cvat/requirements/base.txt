@@ -1,6 +1,6 @@
 attrs==21.2.0
 click==7.1.2
-Django==3.2.12
+Django==4.2.27
 django-appconf==1.0.4
 django-auth-ldap==2.2.0
 django-compressor==2.4
@@ -17,7 +17,7 @@ rjsmin==1.1.0
 requests==2.26.0
 rq==1.5.1
 rq-scheduler==0.10.0
-sqlparse==0.4.2
+sqlparse==0.5.4
 django-sendfile2==0.6.1
 dj-pagination==2.5.0
 python-logstash-async==2.2.0
@@ -49,6 +49,6 @@ google-cloud-storage==1.42.0
 # --no-binary=datumaro: workaround for pip to install
 # opencv-headless instead of regular opencv, to actually run setup script
 datumaro==0.2.0 --no-binary=datumaro
-urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
 natsort==8.0.0
 mistune>=2.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
